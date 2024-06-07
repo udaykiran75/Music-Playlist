@@ -1,0 +1,114 @@
+.musicBgContainer {
+  @media screen and (min-width: 768px) {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+.ed-sheeranContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30vh;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  @media screen and (min-width: 768px) {
+    height: 50vh;
+    padding-left: 60px;
+    padding-bottom: 30px;
+  }
+}
+.singerName {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0px;
+  @media screen and (min-width: 768px) {
+    font-size: 37px;
+  }
+}
+.singerText {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 0.5;
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+.music-list-container {
+  background-color: #152850;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100%;
+  @media screen and (min-width: 768px) {
+    height: 50vh;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.playlist-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 3px;
+  @media screen and (min-width: 768px) {
+    padding: 5px;
+  }
+}
+.search-box {
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 15px;
+  width: 150px;
+  color: #ffffff;
+  background-color: transparent;
+  @media screen and (min-width: 768px) {
+    width: 250px;
+  }
+}
+.playlist-title {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 19px;
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+.music-list {
+  padding: 0px;
+  height: 70vh;
+}
+.music-list {
+  @media screen and (min-width: 768px) {
+    max-height: 39vh !important;
+    overflow-y: auto;
+  }
+}
+.no-songsFound-div {
+  height: 70vh;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    height: 39vh;
+  }
+}
+.nosongs-found-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #ffffff;
+}
